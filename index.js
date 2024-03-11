@@ -2,13 +2,12 @@
 let count = 0;
 
 // écoute clicks sur le bouton d'ajout
-// document.addEventListener('increment-btn', onclick);
+// ajouté onclick='' dans le HTML
 
 // incrémente le compteur si click
 function increment() {
   count++;
-  // console.log(count);
 
-  // modifie le HTML
-  document.querySelector('#count-el').innerHTML = count;
+  // et modifie le HTML
+  document.querySelector("#count-el").innerHTML = count;
 }
